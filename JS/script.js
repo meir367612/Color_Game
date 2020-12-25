@@ -202,7 +202,7 @@ function timeOut(){
   clearTimeout(time_out1);
   clearTimeout(time_out2);
   time_out1=setTimeout(function(){ guess.innerHTML="Next time do it Faster!"; },60000);
-  time_out2=setTimeout(function(){   random_rgb_real()},61000*1000);
+  time_out2=setTimeout(function(){   random_rgb_real()},61000);
 
 
   return
