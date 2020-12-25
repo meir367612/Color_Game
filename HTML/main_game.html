@@ -1,0 +1,39 @@
+
+
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Game</title>
+    <link href="../CSS/style_main_game.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div class="topCenter">
+      <div class="color">
+        <span id="headLine">Lets start!!!</span>
+      </div>
+      <div id="stripe">
+        <button onclick="random_rgb_real()" id="reset">Reset</button> 
+        <span id="message"></span>
+        <button  id="easyBtn" onclick="remove_circles()">Easy</button>
+        <button class="selected" id ="hardBtn" onclick="add_circles()">Hard</button>
+      </div>
+            <span id="guess"> Guess the RGB</span>
+    </div>
+
+
+    <div id="container">
+      <div class="square" id="circle1"> </div>
+      <div class="square" id="circle2"></div>
+      <div class="square"  id="circle3"></div>
+      <div class="square" id="circle4"> </div>
+      <div class="square" id="circle5"></div>
+      <div class="square"  id="circle6"></div>
+    </div>
+    
+      <script src="../JS/script.js"></script>
+    <div id="names"> <h2>Created by Meir & Yosef Haim</h2></div>
+  </body>
+</html>
+
+

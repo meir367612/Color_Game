@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../images/background.jpg);
+  font-family: "Montserrat";
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.color{
+  margin-top: 20px;
+  text-align: center;
+}
+.button {
+  border-radius: 8px;
+  font-family: "Raleway", Sans-serif;
+}
+.topCenter{
+  margin-top: 20px;
+  text-align: center;
+
+}
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-family: fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100%;
+  font-weight: 700;
+  color: #3AA1FF;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  outline: none;
+}
+
+button:hover{
+  color: white;
+  background: #3AA1FF;
+}
+
+#message{
+  display: inline-block;
+  width: 20%;
+}
+#container {
+  margin: 60px auto;
+  max-width: 500px;
+
+
+}
+.square {
+  width: 30%;
+  background: white;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 50%;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+
+}
+
+#headLine{
+  display: block;
+  color: #3AA1FF;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#guess{
+  display: inline-block;
+  color: rgb(18, 71, 133);
+  text-transform: uppercase;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid white;
+  padding:5px;
+  font-size:140%;
+  font-weight:bold;
+}
+
+.color button{
+  background: rgb(247, 246, 246);
+  outline: none;
+  color: rgb(90, 28, 235);
+  border: 3px solid white;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+
+
+
+.selected {
+  color: white;
+  background: #3AA1FF;
+}
+
+#names{
+  color: white;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+
+}
+
+
+
